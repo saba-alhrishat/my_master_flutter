@@ -189,7 +189,7 @@ class _SignUpPageState extends State<SignUpPage> {
                           // الانتقال إلى صفحة Home بعد التسجيل
                           Navigator.pushReplacement(
                             context,
-                            MaterialPageRoute(builder: (context) => const HomePage()),
+                            MaterialPageRoute(builder: (context) =>  HomePage()),
                           );
                         }
                       },

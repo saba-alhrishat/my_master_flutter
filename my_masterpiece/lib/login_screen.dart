@@ -25,7 +25,7 @@ class _LoginPageState extends State<LoginPage> {
     // الانتقال إلى صفحة HomePage بعد تسجيل الدخول الناجح
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (context) => const HomePage()),
+      MaterialPageRoute(builder: (context) =>  HomePage()),
     );
   }
 }
@@ -184,5 +184,8 @@ class _LoginPageState extends State<LoginPage> {
         ),
       ),
     );
+    
   }
 }
+
+
